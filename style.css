@@ -10,7 +10,7 @@ body{
     background-color: #A67D32;
     font-family: Arial, Helvetica, sans-serif;
 }
-div{
+.divlog{
     background-color:#331859ec;
     position: absolute;
     text-align: center;
@@ -22,17 +22,17 @@ div{
     border-radius: 10px;
     justify-content: center;
 }
-img{
+.imglogo{
     border-radius: 200px;
     max-width: 150px;
 }
-h1{
+.h1log{
     color: #F2CE16;
     text-align: center;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.274);
 }
-input{
+.inputlog{
     margin-top: 15px;
     border: none;
     padding: 15px;
@@ -43,7 +43,7 @@ input{
     font-size: 15px;
     
 }
-button{
+.buttonlog{
     font-size: 18px;
     background-color: dodgerblue;
     color: white;
@@ -54,24 +54,25 @@ button{
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
 }
-button:hover{
+.buttonlog:hover{
     background-color: deepskyblue;
     cursor: pointer;
 }
 hr{
     margin-top: 25px;
 }
-p{
+.plog{
     color: #F2CE16;
     margin: 10px;
     padding-top: 15px;
 }
-a{
+p.plog > a{
     color: #F2CE16;
 }
-footer{
+.footerlog{
     text-align: center;
-    font-size: 0.7em;
+    font-size: 0.8em;
+    color: #F2CE16;
     margin-top: 50px;
     margin-bottom: -50px;
 }
