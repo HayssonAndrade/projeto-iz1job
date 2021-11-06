@@ -5,12 +5,23 @@
     padding: 0px;
 }
 /*palheta #331859 #F2CE16 #D9AC25 #A67D32  #73523F */
+:root{
+    --cor0:#331859;
+    --cor1:#F2CE16;
+    --cor2:#D9AC25;
+    --cor3:#A67D32;
+    --cor4:#73523F;
+}
+
+
 
 body{
     background-color: #A67D32;
     font-family: Arial, Helvetica, sans-serif;
 }
 .divlog{
+    min-width: 300px;
+    max-width: 1000px;
     background-color:#331859ec;
     position: absolute;
     text-align: center;
@@ -36,7 +47,7 @@ body{
     margin-top: 15px;
     border: none;
     padding: 15px;
-    width: 90%;
+    width: 70%;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
     outline: none;
@@ -50,11 +61,26 @@ body{
     border: none;
     margin-top: 15px;
     padding: 15px;
-    width: 100%;
+    width: 75%;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
 }
 .buttonlog:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+.buttonreg{
+    font-size: 18px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    padding: 15px;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+}
+.buttonreg:hover{
     background-color: deepskyblue;
     cursor: pointer;
 }
